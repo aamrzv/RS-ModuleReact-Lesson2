@@ -4,6 +4,16 @@
 	padding: 5px;
 }
 
+.contener span:active {
+	box-shadow: 0px 0px 5px 2px #181331 inset;
+	top: 4px;
+}
+
+.contener span.eval:active {
+	box-shadow: 0px 0px 5px 2px #717a33 inset;
+	top: 4px;
+}
+
 .bnt{
 	width: 50px;
 	height: 50px;
@@ -20,6 +30,7 @@
 	color:black;
 }
 
+
 .operatorBtn{
 	background: rgb(230, 142, 43);
 	color:black;
@@ -30,6 +41,7 @@
 .resetBtn{
 	background: rgb(184, 10, 10);
 	color:rgb(255, 255, 255);
+
 }
 
 .numBlock{
@@ -51,14 +63,18 @@
 }
 
 .screen{
-	background: white;
+	background: rgb(218, 251, 255);
 	color:black;
-	width: 170px;
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	line-height: 50px;
+	width: 150px;
 	height: 50px;
 	border-radius: 3px;
 	margin: 5px;
+	padding: 0 10px;
 	float: left;
 }
 .screenBacklight{
-	color:rgb(31, 160, 5);
+	color:rgb(5, 160, 113);
 }
